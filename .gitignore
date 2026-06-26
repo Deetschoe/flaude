@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node / tooling (none required, but keep clean if added later)
+node_modules/
+npm-debug.log*
+.pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# Env
+.env
+.env.*
+!.env.example
