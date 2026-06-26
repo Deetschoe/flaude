@@ -60,11 +60,7 @@
   </symbol>
 </svg>
 
-<!-- global cinematic overlays -->
-<div class="frame" aria-hidden="true"></div>
-<div class="tick tr" aria-hidden="true"></div>
-<div class="tick bl" aria-hidden="true"></div>
-<div class="progress" id="progress" aria-hidden="true"></div>
+<!-- subtle cinematic texture -->
 <div class="scanlines" aria-hidden="true"></div>
 <div class="grain" aria-hidden="true"></div>
 
@@ -73,7 +69,7 @@
   <div class="topnav-inner">
     <a class="brand" href="#top" aria-label="flaude home">
       <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><use href="#pinwheel"/></svg>
-      <span class="brand-name">flaude</span>
+      <span class="brand-name">Flaude</span>
     </a>
     <nav class="topnav-links" aria-label="Primary">
       <a href="#install">INSTALL</a>
@@ -81,7 +77,7 @@
       <a href="#features">FEATURES</a>
       <a href="#manifesto">MANIFESTO</a>
     </nav>
-    <a href="#get" class="pill pill-solid">Request access</a>
+    <a href="https://x.com/flaudelabs" target="_blank" rel="noopener" class="pill pill-solid" title="Coming soon — request access on X">Request access</a>
   </div>
 </header>
 
@@ -112,12 +108,10 @@
       </p>
 
       <div class="hero-install">
-        <code class="install" id="heroInstall" title="Install flaude with one command">
+        <code class="install soon" id="heroInstall" title="Install command — coming soon">
           <span class="pr">$</span> <b>curl -fsSL https://flaude.com | sh</b>
         </code>
-        <button class="copybtn" id="copyHero" type="button" data-cmd="curl -fsSL https://flaude.com | sh" aria-label="Copy install command">
-          <span class="copy-default">Copy</span><span class="copy-done">Copied ✓</span>
-        </button>
+        <span class="soon-pill" aria-label="Install command coming soon">Coming soon</span>
       </div>
 
       <div class="scrollcue" aria-hidden="true">
@@ -153,9 +147,7 @@
             <span class="appstore-get">GET</span>
           </div>
           <div class="term-actions">
-            <button class="copybtn wide" id="copyTerm" type="button" data-cmd="curl -fsSL https://flaude.com | sh">
-              <span class="copy-default">Copy install command</span><span class="copy-done">Copied ✓</span>
-            </button>
+            <span class="soon-pill wide" aria-label="Install command coming soon">Install command — coming soon</span>
             <button class="ghostbtn" id="replayBtn" type="button">Replay ⟳</button>
           </div>
         </div>
@@ -222,17 +214,12 @@
   <section class="get" id="get" aria-labelledby="get-title">
     <div class="get-glow" aria-hidden="true"></div>
     <div class="wrap get-inner">
-      <span class="label" data-reveal>request access</span>
+      <span class="label" data-reveal>request access · coming soon</span>
       <h2 class="serif get-title" data-reveal data-delay="60" id="get-title">Bring your agent <span class="em">everywhere.</span></h2>
-      <p class="get-sub" data-reveal data-delay="120">It's rolling out to people who want their coding agent with them, not waiting at home. Get on the list.</p>
-      <form class="waitlist" id="waitlist" data-reveal data-delay="180" novalidate>
-        <label class="sr-only" for="email">Email address</label>
-        <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required />
-        <button class="pill pill-solid" type="submit">Request access</button>
-      </form>
-      <p class="waitlist-msg" id="waitlistMsg" role="status" aria-live="polite"></p>
+      <p class="get-sub" data-reveal data-delay="120">Early access is rolling out soon to people who want their coding agent with them, not waiting at home. Want in first? Slide into our DMs on X and we'll get you on the list.</p>
+      <a class="pill pill-solid get-cta" href="https://x.com/flaudelabs" target="_blank" rel="noopener" data-reveal data-delay="180">Request access on X →</a>
       <p class="get-reassure" data-reveal>One command to install. One scan to pair. No setup theater.</p>
-      <p class="get-note" data-reveal>Premium, and not free. Mac-only for now. Built for people who want their agent everywhere.</p>
+      <p class="get-note" data-reveal>Coming soon · Premium, and not free · Mac-only for now.</p>
     </div>
   </section>
 </main>
