@@ -16,4 +16,6 @@ a lil silly CLI that keeps your Mac awake 24/7 while it runs, and lets you drive
 
 ![lava lamp](https://i.makeagif.com/media/2-19-2016/OjEQp0.gif)
 
-curl command coming soon
+curl command dropping soon + mobile app
+
+stay tuned
