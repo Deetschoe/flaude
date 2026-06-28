@@ -1,7 +1,7 @@
 {
   "name": "flaude",
   "short_name": "flaude",
-  "description": "Claude Code, in your pocket. The logistics layer for your life.",
+  "description": "A fun, prettier terminal to interact with AI agents and organize everything from your phone.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
