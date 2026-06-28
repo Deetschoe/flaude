@@ -127,10 +127,11 @@ h1.headline .em{ font-style:italic; background:linear-gradient(180deg, var(--emb
 .soon-pill.wide{ flex:1; min-width:200px; }
 .install.soon{ opacity:.62; }
 
-.scrollcue{ margin-top:clamp(26px,4vh,46px); font-family:var(--mono); font-size:11px; letter-spacing:.28em; text-transform:uppercase; color:var(--muted); display:flex; align-items:center; gap:1rem; }
-.cue-line{ position:relative; width:60px; height:1px; background:var(--faint); overflow:hidden; }
-.cue-line::after{ content:''; position:absolute; inset:0; width:50%; background:var(--coral); animation:cue 2.4s var(--ease) infinite; }
-@keyframes cue{ 0%{transform:translateX(-110%)} 60%,100%{transform:translateX(220%)} }
+.hero-hints{ margin-top:clamp(16px,2.4vh,24px); display:flex; flex-wrap:wrap; gap:8px 9px; align-items:center; justify-content:center; max-width:90vw; }
+.hero-hints .hint-label{ font-family:var(--mono); font-size:11px; letter-spacing:.26em; text-transform:uppercase; color:var(--muted); }
+.hero-hints code{ font-family:var(--mono); font-size:clamp(.62rem,.95vw,.74rem); color:var(--cream-dim); background:rgba(244,239,230,.03); border:1px solid var(--faint-2); padding:.5em .8em; border-radius:999px; white-space:nowrap; transition:border-color .2s, color .2s; }
+.hero-hints code:hover{ border-color:rgba(222,86,86,.4); color:var(--cream); }
+.hero-hints code .pr{ color:var(--coral); margin-right:.4em; }
 
 /* giant cropped hero wordmark */
 .wordmark-wrap{ position:absolute; left:0; right:0; bottom:0; z-index:3; pointer-events:none; line-height:.74; text-align:center; will-change:transform; }
@@ -318,7 +319,7 @@ section{ position:relative; }
 /* ═══════════════════ REDUCED MOTION ═══════════════════ */
 @media (prefers-reduced-motion:reduce){
   .mark-svg{ animation:none; } .mark .bloom{ animation:none; opacity:.7; }
-  .grain{ animation:none; } .cue-line::after{ animation:none; } .cursor{ animation:none; }
+  .grain{ animation:none; } .cursor{ animation:none; }
   .wordmark-wrap{ transform:none!important; }
   [data-reveal]{ opacity:1; transform:none; transition:none; }
   .pin-wrap{ height:auto; } .pin-stage{ position:relative; height:auto; padding:18vh 0; }
