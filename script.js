@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════════════════════════
    flaude — homepage interactions. Vanilla JS, zero libraries.
    • Hero data-rain canvas
-   • Cinematic install terminal (type → stream → App Store card)
+   • Cinematic install terminal (type → stream → shaders-loaded card)
    • Scroll engine: single rAF + lerp → [T1] pinned reveal,
      [T2] horizontal panels, [T3] parallax wordmark, hero wordmark
    • [T4] halftone dot-wave canvas   • [T5] staggered reveals
@@ -81,9 +81,9 @@
       { html: '<span class="arr">▸</span> downloading flaude <span class="dim">v1.0.0…</span>', after: 520 },
       { html: '<span class="arr">▸</span> linking to Claude Code', after: 600 },
       { html: '<span class="arr">▸</span> starting the daemon <span class="dim">+ waking Flo</span>', after: 640 },
-      { html: '<span class="arr">▸</span> pairing with your iPhone…', after: 700 },
-      { html: '<span class="arr">▸</span> enabling <span class="dim">caffeinate</span> — your Mac stays awake', after: 640 },
-      { html: '<span class="tick-g">✓</span> <span class="ok">installed.</span> go places.', after: 520 }
+      { html: '<span class="arr">▸</span> loading shaders <span class="dim">×5</span>', after: 700 },
+      { html: '<span class="arr">▸</span> enabling <span class="dim">caffeinate</span> — your laptop stays awake', after: 640 },
+      { html: '<span class="tick-g">✓</span> <span class="ok">installed.</span> run, shaders on.', after: 520 }
     ];
     var timers = [];
     function clearTimers() { timers.forEach(clearTimeout); timers = []; }

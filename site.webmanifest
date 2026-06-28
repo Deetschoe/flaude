@@ -1,7 +1,7 @@
 {
   "name": "flaude",
   "short_name": "flaude",
-  "description": "A fun, prettier terminal to interact with AI agents and organize everything from your phone.",
+  "description": "A shader-heavy CLI to interact with Claude Code without your laptop turning off. Phone pairing coming soon.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

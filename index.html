@@ -4,11 +4,11 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <meta name="color-scheme" content="dark" />
-<title>flaude — a remote for your coding agent</title>
-<meta name="description" content="flaude pairs Claude Code on your Mac with your iPhone — kick off runs, steer them, watch live in-app previews, snap a photo into context, and organize everything from anywhere." />
+<title>flaude — a shader-heavy CLI for Claude Code</title>
+<meta name="description" content="Run your coding agents with flaude — a shader-heavy CLI to interact with Claude Code without your laptop turning off mid-run. Pairing with your phone, coming soon." />
 
-<meta property="og:title" content="flaude — a remote for your coding agent" />
-<meta property="og:description" content="Run your coding agent from your phone — kick off runs, watch live previews, and organize everything from anywhere." />
+<meta property="og:title" content="flaude — a shader-heavy CLI for Claude Code" />
+<meta property="og:description" content="Run your coding agents with flaude — a shader-heavy CLI for Claude Code that keeps your laptop awake while it works. Phone pairing coming soon." />
 <meta property="og:type" content="website" />
 <meta name="theme-color" content="#08060a" />
 
@@ -73,7 +73,7 @@
     </a>
     <nav class="topnav-links" aria-label="Primary">
       <a href="#install">INSTALL</a>
-      <a href="#features">THE APP</a>
+      <a href="#features">SHADERS</a>
       <a href="#features">FEATURES</a>
       <a href="#manifesto">MANIFESTO</a>
     </nav>
@@ -95,16 +95,15 @@
         <svg class="mark-svg" viewBox="0 0 100 100" aria-hidden="true"><use href="#pinwheel"/></svg>
       </div>
 
-      <p class="eyebrow">A remote for your coding agent</p>
+      <p class="eyebrow">A shader-heavy CLI for Claude Code</p>
 
       <h1 id="hero-title" class="headline">
-        Run your coding agent <span class="em">from&nbsp;your&nbsp;phone.</span>
+        Run your coding agents <span class="em">with&nbsp;flaude.</span>
       </h1>
 
       <p class="hero-sub">
-        flaude pairs Claude Code on your Mac with your iPhone. Kick off runs, steer
-        them, watch live previews, and organize everything from anywhere — your desk
-        is now optional.
+        A shader-heavy CLI to interact with Claude Code — without your laptop turning
+        off mid-run. Pairing with your phone, coming soon.
       </p>
 
       <div class="hero-install">
@@ -117,9 +116,9 @@
       <div class="hero-hints" aria-label="Example flaude commands">
         <span class="hint-label">then</span>
         <code><span class="pr">$</span> flaude run</code>
+        <code><span class="pr">$</span> flaude shaders</code>
+        <code><span class="pr">$</span> flaude new shader</code>
         <code><span class="pr">$</span> flaude pair</code>
-        <code><span class="pr">$</span> flaude preview</code>
-        <code><span class="pr">$</span> flaude snap</code>
       </div>
     </div>
 
@@ -147,8 +146,8 @@
           </div>
           <div class="appstore-card" id="appstore" aria-hidden="true">
             <svg class="appstore-icon" viewBox="0 0 100 100" aria-hidden="true"><use href="#pinwheel"/></svg>
-            <span class="appstore-text"><b>Opening the App Store…</b><i>flaude for iPhone</i></span>
-            <span class="appstore-get">GET</span>
+            <span class="appstore-text"><b>Shaders loaded</b><i>5 built-in · build your own</i></span>
+            <span class="appstore-get">RUN</span>
           </div>
           <div class="term-actions">
             <span class="soon-pill wide" aria-label="Install command coming soon">Install command — coming soon</span>
@@ -158,8 +157,8 @@
 
         <ol class="steps" data-reveal data-delay="180">
           <li><span class="snum">01</span><h3>One line install</h3><p>Paste the command into your Mac and it wires itself into Claude Code.</p></li>
-          <li><span class="snum">02</span><h3>Pair your phone</h3><p>Open the app, scan once, and your iPhone becomes a remote for every run.</p></li>
-          <li><span class="snum">03</span><h3>Plug in and step away</h3><p>It keeps your Mac awake, so the agent keeps working long after you've left the desk.</p></li>
+          <li><span class="snum">02</span><h3>Run, shaders on</h3><p>A shader-heavy terminal runs behind every session — pick from the built-ins or build your own.</p></li>
+          <li><span class="snum">03</span><h3>It stays awake</h3><p>flaude keeps your laptop from sleeping, so a long run doesn't die the moment you step away.</p></li>
         </ol>
       </div>
     </div>
@@ -168,7 +167,7 @@
   <!-- ════════ [T1] PINNED HEADLINE REVEAL ════════ -->
   <section class="pin-wrap" id="pin">
     <div class="pin-stage">
-      <h2 class="reveal-head" id="revealHead">Your coding agent — <em>now in your pocket.</em> Kick off a run, steer it, and organize everything from your phone.</h2>
+      <h2 class="reveal-head" id="revealHead">A shader-heavy CLI for Claude Code that <em>won't let your laptop sleep.</em> Pairing with your phone, coming soon.</h2>
       <div class="pin-progress"><span id="pinPct">00</span> / 100</div>
     </div>
   </section>
@@ -176,13 +175,13 @@
   <!-- ════════ [T2] HORIZONTAL FEATURE PANELS ════════ -->
   <section class="h-wrap" id="features">
     <div class="h-stage">
-      <div class="h-head"><span class="label">capabilities</span><h2 class="serif">Built for the phone.</h2></div>
+      <div class="h-head"><span class="label">capabilities</span><h2 class="serif">Built around Claude Code.</h2></div>
       <div class="h-track" id="hTrack">
-        <article class="card"><span class="num">01</span><span class="glyph" aria-hidden="true">⌘</span><h3 class="serif">Run from anywhere</h3><p>Start, steer, and stop Claude Code from your phone — wherever you happen to be.</p></article>
-        <article class="card"><span class="num">02</span><span class="glyph" aria-hidden="true">▤</span><h3 class="serif">See it live, in the app</h3><p>Real rendered pages preview inside the native iOS app. Not screenshots — the actual site, in your hand.</p></article>
-        <article class="card"><span class="num">03</span><span class="glyph" aria-hidden="true">◉</span><h3 class="serif">Camera to context</h3><p>Snap a whiteboard, a screen, a receipt. It lands straight in Claude's context, no typing required.</p></article>
-        <article class="card"><span class="num">04</span><span class="glyph" aria-hidden="true">✦</span><h3 class="serif">Auto-caffeinate</h3><p>Launching it keeps your Mac awake. Step away and the run doesn't stop when you do.</p></article>
-        <article class="card card-soon"><span class="num">05</span><span class="glyph" aria-hidden="true">→</span><h3 class="serif">More, soon</h3><p>We're just getting started — more surfaces, more context, more places your agent can reach.</p></article>
+        <article class="card"><span class="num">01</span><span class="glyph" aria-hidden="true">✦</span><h3 class="serif">Shader-heavy terminal</h3><p>Interactive shaders run behind every session — they react to your music and are just nice to work in front of.</p></article>
+        <article class="card"><span class="num">02</span><span class="glyph" aria-hidden="true">◈</span><h3 class="serif">Build your own</h3><p>Got Claude Code? Spin up new shaders and grow your own library in minutes.</p></article>
+        <article class="card"><span class="num">03</span><span class="glyph" aria-hidden="true">⌘</span><h3 class="serif">Speaks Claude Code</h3><p>A CLI that wraps Claude Code natively — run your coding agents without leaving the terminal.</p></article>
+        <article class="card"><span class="num">04</span><span class="glyph" aria-hidden="true">◉</span><h3 class="serif">Never sleeps</h3><p>flaude keeps your laptop awake. Step away and a long run doesn't stop when you do.</p></article>
+        <article class="card card-soon"><span class="num">05</span><span class="glyph" aria-hidden="true">→</span><h3 class="serif">Phone pairing, soon</h3><p>Pairing with your phone is on the way — check in on runs from anywhere.</p></article>
       </div>
     </div>
   </section>
@@ -190,7 +189,7 @@
   <!-- ════════ [T3] PARALLAX GIANT WORDMARK ════════ -->
   <section class="wordmark-sec" id="wordSec">
     <div class="wordmark-mid" id="wordmark">FL<b>A</b>UDE</div>
-    <p class="wordmark-cap" data-reveal>One name for the whole loop — phone to agent to ship. The desk was always optional.</p>
+    <p class="wordmark-cap" data-reveal>One CLI for the whole loop — Claude Code, shaders, and a laptop that won't quit on you.</p>
   </section>
 
   <!-- ════════ [T4] HALFTONE DOT-WAVE + MANIFESTO ════════ -->
@@ -198,19 +197,19 @@
     <canvas id="dotwave" aria-hidden="true"></canvas>
     <div class="inner">
       <span class="label" data-reveal>the manifesto</span>
-      <h2 class="serif" data-reveal data-delay="80">The desk was<br>never the point.</h2>
-      <p data-reveal data-delay="160">Coding agents were born tethered — to a desk, a screen, a chair you have to stay in. flaude cuts the cord. Your agent now lives on the one device that's always with you: start runs, watch live previews, drop a photo into context, and steer Claude Code straight from your phone.</p>
+      <h2 class="serif" data-reveal data-delay="80">A terminal worth<br>staring at.</h2>
+      <p data-reveal data-delay="160">Coding agents deserve a better home than a plain black box. flaude is a shader-heavy CLI for Claude Code: interactive shaders that react to your music, your own library built with a sentence, and a laptop that stays awake while the work ships. Phone pairing is coming soon.</p>
     </div>
   </section>
 
   <!-- ════════ [T5] STAGGERED REVEALS — UNDER THE HOOD ════════ -->
   <section class="story" id="hood">
     <span class="label eyebrow-static" data-reveal>under the hood</span>
-    <h2 class="serif" data-reveal data-delay="80">More than a remote.</h2>
+    <h2 class="serif" data-reveal data-delay="80">More than a terminal.</h2>
     <div class="reveal-grid">
       <div class="cell" data-reveal data-delay="120"><h4 class="serif">Meet Flo</h4><p>A small agent that rides along inside the CLI — she watches the run, quips when it matters, and flashes the moment your work is done.</p></div>
       <div class="cell" data-reveal data-delay="220"><h4 class="serif">Your key, your agent</h4><p>Bring your own Claude account. Nothing resold, nothing sitting in the middle — your code and your context never leave your machine.</p></div>
-      <div class="cell" data-reveal data-delay="320"><h4 class="serif">The flaude CLI</h4><p>A custom command line that speaks Claude Code natively, so the bridge between Mac and phone stays invisible.</p></div>
+      <div class="cell" data-reveal data-delay="320"><h4 class="serif">The flaude CLI</h4><p>A custom command line that speaks Claude Code natively, so the shaders and the agent feel like one tool.</p></div>
     </div>
   </section>
 
@@ -219,10 +218,10 @@
     <div class="get-glow" aria-hidden="true"></div>
     <div class="wrap get-inner">
       <span class="label" data-reveal>request access · coming soon</span>
-      <h2 class="serif get-title" data-reveal data-delay="60" id="get-title">Bring your agent <span class="em">everywhere.</span></h2>
-      <p class="get-sub" data-reveal data-delay="120">Early access is rolling out soon to people who want their coding agent with them, not waiting at home. Want in first? Slide into our DMs on X and we'll get you on the list.</p>
+      <h2 class="serif get-title" data-reveal data-delay="60" id="get-title">Run your agents <span class="em">in style.</span></h2>
+      <p class="get-sub" data-reveal data-delay="120">Early access is rolling out soon. Want in first? Slide into our DMs on X and we'll get you on the list.</p>
       <a class="pill pill-solid get-cta" href="https://x.com/flaudelabs" target="_blank" rel="noopener" data-reveal data-delay="180">Request access on X →</a>
-      <p class="get-reassure" data-reveal>One command to install. One scan to pair. That's it.</p>
+      <p class="get-reassure" data-reveal>One command to install. Then run, shaders on.</p>
       <p class="get-note" data-reveal>Coming soon · Premium, and not free · Mac-only for now.</p>
     </div>
   </section>
@@ -230,16 +229,16 @@
 
 <footer class="footer">
   <div class="footer-top">
-    <div class="footer-big serif" data-reveal>Bring the<br>agent <em>along.</em></div>
+    <div class="footer-big serif" data-reveal>Run them<br>in <em>style.</em></div>
     <nav class="footer-cols" aria-label="Footer">
-      <div class="fcol"><h4>Product</h4><a href="#features">The App</a><a href="#install">Install</a><a href="#hood">Meet Flo</a></div>
+      <div class="fcol"><h4>Product</h4><a href="#features">Shaders</a><a href="#install">Install</a><a href="#hood">Meet Flo</a></div>
       <div class="fcol"><h4>Company</h4><a href="#manifesto">Manifesto</a><a href="#">Changelog</a><a href="mailto:hello@flaude.com">Contact</a></div>
       <div class="fcol"><h4>Developers</h4><a href="#">CLI Docs</a><a href="#install">curl flaude.com</a><a href="#">Status</a></div>
     </nav>
   </div>
   <div class="footer-bottom">
-    <span class="footer-sign"><svg class="brand-mark sm" viewBox="0 0 100 100" aria-hidden="true"><use href="#pinwheel"/></svg> flaude — a remote for your coding agent.</span>
-    <span class="footer-micro">Mac-only, for now. Your phone does the rest. © <span id="year">2026</span></span>
+    <span class="footer-sign"><svg class="brand-mark sm" viewBox="0 0 100 100" aria-hidden="true"><use href="#pinwheel"/></svg> flaude — a shader-heavy CLI for Claude Code.</span>
+    <span class="footer-micro">Mac-only, for now. Phone pairing coming soon. © <span id="year">2026</span></span>
   </div>
 </footer>
 

@@ -12,9 +12,11 @@ a lil silly CLI that keeps your Mac awake 24/7 while it runs, and lets you drive
 
 - **caffeinate** — automatically keeps your Mac awake while a run is going, so it doesn't nap the second you walk away
 - **phone control** — working on mobile app to connect the cli, and easily manage sessions from your pocket 
-- **terminal shaders** — 5 prebuilt ones, interactive, react to your music, and just nice to stare at while you work (lava-lamp energy)
+- **terminal shaders** — 5 prebuilt ones, interactive, react to your music, and just nice to stare at while you work (lava-lamp energy). spin up really cool ones + build your own library easily if you've got claude code access
 
 ![lava lamp](https://i.makeagif.com/media/2-19-2016/OjEQp0.gif)
+
+heads up: kickoff is still in the early phases right now
 
 curl command dropping soon + mobile app
 
